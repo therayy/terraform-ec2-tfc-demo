@@ -8,7 +8,7 @@ resource "aws_instance" "lesson_03" {
 
   tags = {
     Name        = "my-ec2-instance"
-    Owner       = "ray.abaid@hashicorp.com"
+    Owner       = "Ray"
     Environment = "test"
     Project     = "terraform-learning"
   }
