@@ -14,8 +14,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "lesson_03" {
-  ami           = "ami-0b0b78dcacbab728f"
-  instance_type = "t3.micro"
+  ami           = "ami-0b671272c81662a99"
+  instance_type = "t2.micro"
 
   tags = {
     Name = "my-ec2-instance"
