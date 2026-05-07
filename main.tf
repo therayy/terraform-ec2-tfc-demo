@@ -7,9 +7,6 @@ resource "aws_instance" "lesson_03" {
   instance_type = var.instance_type
 
   tags = {
-    Name        = "my-ec2-instance"
-    Owner       = "Ray"
-    Environment = "test"
-    Project     = "terraform-learning"
+    Name = "my-ec2-instance"
   }
 }
