@@ -1,3 +1,7 @@
+provider "aws" {
+  region = var.aws_region
+}
+
 resource "aws_instance" "lesson_03" {
   ami           = "ami-0e68dc81dc36750a1"
   instance_type = var.instance_type
